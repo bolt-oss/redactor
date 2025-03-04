@@ -1,5 +1,5 @@
 {
-    "name": "bolt/redactor",
+    "name": "bolt-oss/redactor",
     "description": "📝 Bolt Extension to add the Redactor FieldType",
     "type": "bolt-extension",
     "license": "MIT",
@@ -15,6 +15,9 @@
     "require-dev": {
         "bolt/core": "^5.0",
         "symplify/easy-coding-standard": "^7.0"
+    },
+    "replace": {
+        "bolt/redactor": "*"
     },
     "autoload": {
         "psr-4": {
